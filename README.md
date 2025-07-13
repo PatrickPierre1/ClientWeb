@@ -1,39 +1,36 @@
-# vue-project
+# ClientWeb
+Interface web moderna para gerenciamento de clientes, desenvolvida com Vue 3, Nuxt UI e Tailwind CSS.
+Este frontend consome a ClientAPI via HTTP, exibindo e manipulando dados com foco em performance e usabilidade.
 
-This template should help get you started developing with Vue 3 in Vite.
+---
+### Funcionalidades
 
-## Recommended IDE Setup
+- Listagem de Clientes: Visualizar os clientes cadastrados.
+- Cadastro e Edição de Clientes: Inserir e editar dados dos clientes.
+- Remoção de Clientes: Excluir clientes.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
+### Tecnologias
 
-## Type Support for `.vue` Imports in TS
+- Vue 3
+- TypeScript
+- HTML
+- CSS
+- NuxtUI
+- Tailwind
+- Axios
+---
+### Requisitos
+- Aplicação ClientAPI em execução.
+---
+### Como executar
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+- Instale as dependencias:
+```bash 
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
+- Inicie o servidor de desenvolvimento:
+```bash
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+ ```
+- Abra no navegador http://localhost:5173/clientes
